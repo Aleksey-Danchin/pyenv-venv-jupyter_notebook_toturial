@@ -1,0 +1,61 @@
+---
+description: Standards for module summary/cheat-notes files (printable revision notes)
+globs: course/[0-9][0-9]-*/summary.md
+alwaysApply: false
+---
+
+# Module Summary Standards
+
+Applies to `summary.md` files inside module directories. These are printable revision notes — NOT a copy of lesson content.
+
+## Purpose
+
+A concise, print-friendly document with key concepts, commands, and patterns from the module. Designed for quick revision and to keep at hand.
+
+## Structure
+
+```markdown
+# Конспект: Модуль N — Название
+
+> Краткий справочник для повторения. Подходит для печати.
+
+## Ключевые понятия
+
+| Понятие | Суть (1 предложение) |
+|---------|---------------------|
+| term | one-sentence definition |
+
+## Важно запомнить
+
+- Тезис 1
+- Тезис 2
+
+## Команды модуля
+
+```bash
+command1   # описание
+command2   # описание
+```
+
+## Типичные ошибки (коротко)
+
+| Ошибка | Причина | Решение |
+|--------|---------|---------|
+| error | why | fix |
+
+## Схема
+
+(ASCII-диаграмма, если уместно)
+```
+
+## Rules
+
+- One file per module: `summary.md` in module root.
+- Concise: aim for 1–2 printed pages. No lengthy explanations.
+- "Ключевые понятия" — only terms introduced in THIS module, 1 sentence each.
+- "Важно запомнить" — core takeaways, each 1 sentence.
+- "Команды модуля" — commands with inline comments, grouped logically.
+- "Типичные ошибки" — table format, 1 line per error.
+- "Схема" — optional. Use when relationships, hierarchies, or flows are best shown visually (ASCII art).
+- No navigation links — this is a standalone printable document.
+- No spoiler blocks, no collapsible sections — everything visible for print.
