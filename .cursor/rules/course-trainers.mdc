@@ -11,7 +11,7 @@ Applies to trainer directories (`*-trainer-*/`).
 ## Trainer Structure
 
 ```markdown
-← [Назад](../prev-unit/) | [Оглавление](../../README.md) | [Далее →](../next-unit/)
+← [Назад](../prev-unit/README.md) | [Оглавление](../../README.md) | [Далее →](../next-unit/README.md)
 
 # Тренажёр: Название
 
@@ -65,7 +65,7 @@ expected output
 ```
 
 ---
-← [Назад](../prev-unit/) | [Оглавление](../../README.md) | [Далее →](../next-unit/)
+← [Назад](../prev-unit/README.md) | [Оглавление](../../README.md) | [Далее →](../next-unit/README.md)
 ```
 
 Files: `README.md`, `check.sh`

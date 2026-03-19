@@ -6,8 +6,8 @@
 
 | # | Модуль | Ссылка | Статус |
 |---|--------|--------|--------|
-| 00 | Python-среда в Linux | [Открыть](00-python-environment/) | В процессе |
-| 01 | pyenv: установка и основы | `01-pyenv-basics/` | Запланирован |
+| 00 | Python-среда в Linux | [Открыть](00-python-environment/README.md) | В процессе |
+| 01 | pyenv: установка и основы | [Открыть](01-pyenv-basics/README.md) | В процессе |
 | 02 | pyenv: управление версиями | `02-pyenv-advanced/` | Запланирован |
 | 03 | pip и управление пакетами | `03-pip/` | Запланирован |
 | 04 | venv: создание и работа | `04-venv-basics/` | Запланирован |
@@ -23,18 +23,31 @@
 
 | # | Юнит | Тип |
 |---|------|-----|
-| 01 | [Где лежит системный Python](00-python-environment/01-system-python/) | Урок |
-| 02 | [Что такое PATH и как система находит исполняемые файлы](00-python-environment/02-path-resolution/) | Урок |
-| 03 | [Симлинки: `python -> python3 -> python3.x`](00-python-environment/03-python-symlinks/) | Урок |
-| 04 | [Зачем нельзя трогать системный Python](00-python-environment/04-system-python-risks/) | Урок |
-| 05 | [Что такое pip и куда он устанавливает пакеты глобально](00-python-environment/05-pip-global-packages/) | Урок |
-| 06 | [Что такое shims — предвосхищение pyenv](00-python-environment/06-shims-intro/) | Урок |
-| 07 | [Тест: Python-среда в Linux](00-python-environment/07-test-python-environment/) | Тест |
-| 08 | [Лабораторная: диагностика Python-среды в Linux](00-python-environment/08-lab-python-environment-basics/) | Лабораторная |
+| 01 | [Где лежит системный Python](00-python-environment/01-system-python/README.md) | Урок |
+| 02 | [Что такое PATH и как система находит исполняемые файлы](00-python-environment/02-path-resolution/README.md) | Урок |
+| 03 | [Симлинки: `python -> python3 -> python3.x`](00-python-environment/03-python-symlinks/README.md) | Урок |
+| 04 | [Зачем нельзя трогать системный Python](00-python-environment/04-system-python-risks/README.md) | Урок |
+| 05 | [Что такое pip и куда он устанавливает пакеты глобально](00-python-environment/05-pip-global-packages/README.md) | Урок |
+| 06 | [Что такое shims — предвосхищение pyenv](00-python-environment/06-shims-intro/README.md) | Урок |
+| 07 | [Тест: Python-среда в Linux](00-python-environment/07-test-python-environment/README.md) | Тест |
+| 08 | [Лабораторная: диагностика Python-среды в Linux](00-python-environment/08-lab-python-environment-basics/README.md) | Лабораторная |
+
+## Модуль 1: содержание юнитов
+
+| # | Юнит | Тип |
+|---|------|-----|
+| 01 | [Что такое pyenv и зачем он нужен](01-pyenv-basics/01-what-is-pyenv/README.md) | Урок |
+| 02 | [Установка pyenv](01-pyenv-basics/02-trainer-pyenv-install/README.md) | Тренажёр |
+| 03 | [Установка версии Python через pyenv](01-pyenv-basics/03-installing-python/README.md) | Урок |
+| 04 | [Просмотр доступных и установленных версий](01-pyenv-basics/04-listing-versions/README.md) | Урок |
+| 05 | [Тест: pyenv — установка и основы](01-pyenv-basics/05-test-pyenv-basics/README.md) | Тест |
+| 06 | [Лабораторная: установка и просмотр версий](01-pyenv-basics/06-lab-pyenv-install-versions/README.md) | Лабораторная |
+| 07 | [Диагностика: pyenv install не компилирует](01-pyenv-basics/07-lab-debug-build-deps/README.md) | Диагностика |
 
 ## Справочные материалы
 
 - [Глоссарий](references/glossary.md)
 - [Справочник команд терминала](references/terminal-commands.md)
 - [Cheatsheet: pip](cheatsheets/pip-cheatsheet.md)
+- [Cheatsheet: pyenv](cheatsheets/pyenv-cheatsheet.md)
 

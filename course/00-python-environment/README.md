@@ -1,4 +1,4 @@
-← [Предыдущий модуль](../README.md) | [Оглавление](../README.md) | [Следующий модуль →](../README.md)
+← [Предыдущий модуль](../README.md) | [Оглавление](../README.md) | [Следующий модуль →](../01-pyenv-basics/README.md)
 
 # Модуль 0. Python-среда в Linux
 
@@ -38,14 +38,14 @@
 
 | # | Юнит | Тип | Время |
 |---|------|-----|-------|
-| 01 | [Где лежит системный Python](01-system-python/) | Урок | ~20 мин |
-| 02 | [Что такое PATH и как ищутся исполняемые файлы](02-path-resolution/) | Урок | ~25 мин |
-| 03 | [Симлинки: `python -> python3 -> python3.x`](03-python-symlinks/) | Урок | ~20 мин |
-| 04 | [Почему нельзя трогать системный Python](04-system-python-risks/) | Урок | ~20 мин |
-| 05 | [pip и глобальная установка пакетов](05-pip-global-packages/) | Урок | ~25 мин |
-| 06 | [Введение в shims](06-shims-intro/) | Урок | ~20 мин |
-| 07 | [Тест по модулю 0](07-test-python-environment/) | Тест | ~20 мин |
-| 08 | [Лабораторная: диагностика Python-среды](08-lab-python-environment-basics/) | Лабораторная | ~35 мин |
+| 01 | [Где лежит системный Python](01-system-python/README.md) | Урок | ~20 мин |
+| 02 | [Что такое PATH и как ищутся исполняемые файлы](02-path-resolution/README.md) | Урок | ~25 мин |
+| 03 | [Симлинки: `python -> python3 -> python3.x`](03-python-symlinks/README.md) | Урок | ~20 мин |
+| 04 | [Почему нельзя трогать системный Python](04-system-python-risks/README.md) | Урок | ~20 мин |
+| 05 | [pip и глобальная установка пакетов](05-pip-global-packages/README.md) | Урок | ~25 мин |
+| 06 | [Введение в shims](06-shims-intro/README.md) | Урок | ~20 мин |
+| 07 | [Тест по модулю 0](07-test-python-environment/README.md) | Тест | ~20 мин |
+| 08 | [Лабораторная: диагностика Python-среды](08-lab-python-environment-basics/README.md) | Лабораторная | ~35 мин |
 
 ---
 
@@ -81,5 +81,5 @@ python3 -m pip --version
 ```
 
 ---
-← [Предыдущий модуль](../README.md) | [Оглавление](../README.md) | [Следующий модуль →](../README.md)
+← [Предыдущий модуль](../README.md) | [Оглавление](../README.md) | [Следующий модуль →](../01-pyenv-basics/README.md)
 

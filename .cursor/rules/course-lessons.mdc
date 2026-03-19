@@ -11,7 +11,7 @@ Applies to all `README.md` files inside course unit directories.
 ## Structure of a Lesson
 
 ```markdown
-← [Назад](../prev-unit/) | [Оглавление](../../README.md) | [Далее →](../next-unit/)
+← [Назад](../prev-unit/README.md) | [Оглавление](../../README.md) | [Далее →](../next-unit/README.md)
 
 # Заголовок урока
 
@@ -27,7 +27,7 @@ Applies to all `README.md` files inside course unit directories.
 (common mistakes and how to avoid them, at the end of every lesson)
 
 ---
-← [Назад](../prev-unit/) | [Оглавление](../../README.md) | [Далее →](../next-unit/)
+← [Назад](../prev-unit/README.md) | [Оглавление](../../README.md) | [Далее →](../next-unit/README.md)
 ```
 
 ## Content Rules

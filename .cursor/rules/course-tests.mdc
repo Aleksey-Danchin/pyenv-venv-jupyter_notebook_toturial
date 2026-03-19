@@ -11,7 +11,7 @@ Applies to test directories (`*-test-*/`).
 ## Test Structure
 
 ```markdown
-← [Назад](../prev-unit/) | [Оглавление](../../README.md) | [Далее →](../next-unit/)
+← [Назад](../prev-unit/README.md) | [Оглавление](../../README.md) | [Далее →](../next-unit/README.md)
 
 # Тест: Название
 
@@ -48,7 +48,7 @@ Applies to test directories (`*-test-*/`).
 | < 7 | Рекомендуется пройти уроки заново |
 
 ---
-← [Назад](../prev-unit/) | [Оглавление](../../README.md) | [Далее →](../next-unit/)
+← [Назад](../prev-unit/README.md) | [Оглавление](../../README.md) | [Далее →](../next-unit/README.md)
 ```
 
 ## Rules

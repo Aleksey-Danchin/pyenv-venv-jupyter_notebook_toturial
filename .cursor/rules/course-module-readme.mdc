@@ -12,7 +12,7 @@ These are module landing pages, NOT unit files.
 ## Structure
 
 ```markdown
-← [Предыдущий модуль](../PREV-MODULE/) | [Оглавление](../README.md) | [Следующий модуль →](../NEXT-MODULE/)
+← [Предыдущий модуль](../PREV-MODULE/README.md) | [Оглавление](../README.md) | [Следующий модуль →](../NEXT-MODULE/README.md)
 
 # Модуль N. Название модуля
 
@@ -70,7 +70,7 @@ command2   # описание
 ```
 
 ---
-← [Предыдущий модуль](../PREV-MODULE/) | [Оглавление](../README.md) | [Следующий модуль →](../NEXT-MODULE/)
+← [Предыдущий модуль](../PREV-MODULE/README.md) | [Оглавление](../README.md) | [Следующий модуль →](../NEXT-MODULE/README.md)
 ```
 
 ## Rules

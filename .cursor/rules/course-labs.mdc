@@ -11,7 +11,7 @@ Applies to lab (`*-lab-*/`) and diagnostic lab (`*-lab-debug-*/`) directories.
 ## Regular Lab Structure
 
 ```markdown
-← [Назад](../prev-unit/) | [Оглавление](../../README.md) | [Далее →](../next-unit/)
+← [Назад](../prev-unit/README.md) | [Оглавление](../../README.md) | [Далее →](../next-unit/README.md)
 
 # Лабораторная: Название
 
@@ -34,7 +34,7 @@ Applies to lab (`*-lab-*/`) and diagnostic lab (`*-lab-debug-*/`) directories.
 (expected output to compare against)
 
 ---
-← [Назад](../prev-unit/) | [Оглавление](../../README.md) | [Далее →](../next-unit/)
+← [Назад](../prev-unit/README.md) | [Оглавление](../../README.md) | [Далее →](../next-unit/README.md)
 ```
 
 Files: `README.md`, `solution.md`, `check.sh`

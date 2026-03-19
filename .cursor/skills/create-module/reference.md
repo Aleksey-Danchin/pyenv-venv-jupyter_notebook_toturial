@@ -3,7 +3,7 @@
 ## Шаблон: README модуля (обложка)
 
 ```markdown
-← [Предыдущий модуль](../PREV-MODULE/) | [Оглавление](../README.md) | [Следующий модуль →](../NEXT-MODULE/)
+← [Предыдущий модуль](../PREV-MODULE/README.md) | [Оглавление](../README.md) | [Следующий модуль →](../NEXT-MODULE/README.md)
 
 # Модуль N. Название модуля
 
@@ -60,7 +60,7 @@ command2   # описание
 ```
 
 ---
-← [Предыдущий модуль](../PREV-MODULE/) | [Оглавление](../README.md) | [Следующий модуль →](../NEXT-MODULE/)
+← [Предыдущий модуль](../PREV-MODULE/README.md) | [Оглавление](../README.md) | [Следующий модуль →](../NEXT-MODULE/README.md)
 ```
 
 Файлы: `README.md` в корне директории модуля. Это НЕ учебный юнит.
@@ -70,7 +70,7 @@ command2   # описание
 ## Шаблон: Урок
 
 ```markdown
-← [Назад](../PREV-UNIT/) | [Оглавление](../../README.md) | [Далее →](../NEXT-UNIT/)
+← [Назад](../PREV-UNIT/README.md) | [Оглавление](../../README.md) | [Далее →](../NEXT-UNIT/README.md)
 
 # Заголовок урока
 
@@ -95,7 +95,7 @@ command2   # описание
 ...
 
 ---
-← [Назад](../PREV-UNIT/) | [Оглавление](../../README.md) | [Далее →](../NEXT-UNIT/)
+← [Назад](../PREV-UNIT/README.md) | [Оглавление](../../README.md) | [Далее →](../NEXT-UNIT/README.md)
 ```
 
 Файлы: `README.md`
@@ -105,7 +105,7 @@ command2   # описание
 ## Шаблон: Тренажёр
 
 ```markdown
-← [Назад](../PREV-UNIT/) | [Оглавление](../../README.md) | [Далее →](../NEXT-UNIT/)
+← [Назад](../PREV-UNIT/README.md) | [Оглавление](../../README.md) | [Далее →](../NEXT-UNIT/README.md)
 
 # Тренажёр: Название
 
@@ -160,7 +160,7 @@ output
 ```
 
 ---
-← [Назад](../PREV-UNIT/) | [Оглавление](../../README.md) | [Далее →](../NEXT-UNIT/)
+← [Назад](../PREV-UNIT/README.md) | [Оглавление](../../README.md) | [Далее →](../NEXT-UNIT/README.md)
 ```
 
 Файлы: `README.md`, `check.sh`
@@ -170,7 +170,7 @@ output
 ## Шаблон: Лабораторная
 
 ```markdown
-← [Назад](../PREV-UNIT/) | [Оглавление](../../README.md) | [Далее →](../NEXT-UNIT/)
+← [Назад](../PREV-UNIT/README.md) | [Оглавление](../../README.md) | [Далее →](../NEXT-UNIT/README.md)
 
 # Лабораторная: Название
 
@@ -221,7 +221,7 @@ output
 ```
 
 ---
-← [Назад](../PREV-UNIT/) | [Оглавление](../../README.md) | [Далее →](../NEXT-UNIT/)
+← [Назад](../PREV-UNIT/README.md) | [Оглавление](../../README.md) | [Далее →](../NEXT-UNIT/README.md)
 ```
 
 Файлы: `README.md`, `solution.md`, `check.sh`
@@ -273,7 +273,7 @@ fi
 ## Шаблон: Лабораторная-диагностика
 
 ```markdown
-← [Назад](../PREV-UNIT/) | [Оглавление](../../README.md) | [Далее →](../NEXT-UNIT/)
+← [Назад](../PREV-UNIT/README.md) | [Оглавление](../../README.md) | [Далее →](../NEXT-UNIT/README.md)
 
 # Лабораторная-диагностика: Название
 
@@ -328,7 +328,7 @@ output
 ```
 
 ---
-← [Назад](../PREV-UNIT/) | [Оглавление](../../README.md) | [Далее →](../NEXT-UNIT/)
+← [Назад](../PREV-UNIT/README.md) | [Оглавление](../../README.md) | [Далее →](../NEXT-UNIT/README.md)
 ```
 
 Файлы: `README.md`, `break.sh`, `solution.md`
@@ -352,7 +352,7 @@ echo "Окружение подготовлено. Прочитайте зада
 ## Шаблон: Тест
 
 ```markdown
-← [Назад](../PREV-UNIT/) | [Оглавление](../../README.md) | [Далее →](../NEXT-UNIT/)
+← [Назад](../PREV-UNIT/README.md) | [Оглавление](../../README.md) | [Далее →](../NEXT-UNIT/README.md)
 
 # Тест: Название
 
@@ -392,7 +392,7 @@ echo "Окружение подготовлено. Прочитайте зада
 | < 7 | Рекомендуется пройти уроки заново |
 
 ---
-← [Назад](../PREV-UNIT/) | [Оглавление](../../README.md) | [Далее →](../NEXT-UNIT/)
+← [Назад](../PREV-UNIT/README.md) | [Оглавление](../../README.md) | [Далее →](../NEXT-UNIT/README.md)
 ```
 
 Файлы: `README.md`
