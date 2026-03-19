@@ -1,0 +1,84 @@
+---
+description: Standards for module-level README.md files (module landing pages)
+globs: course/[0-9][0-9]-*/README.md
+alwaysApply: false
+---
+
+# Module README Standards
+
+Applies to `README.md` files directly inside module directories (e.g. `course/01-pyenv-basics/README.md`).
+These are module landing pages, NOT unit files.
+
+## Structure
+
+```markdown
+← [Предыдущий модуль](../PREV-MODULE/) | [Оглавление](../README.md) | [Следующий модуль →](../NEXT-MODULE/)
+
+# Модуль N. Название модуля
+
+> **Время:** ~X дней (при темпе 1–2 часа в день)
+
+## Чему вы научитесь
+
+- Навык 1 (конкретное действие, глагол в инфинитиве)
+- Навык 2
+- Навык 3
+
+## Что будет рассмотрено
+
+| Тема | Описание |
+|------|----------|
+| Тема 1 | Краткое описание |
+| Тема 2 | Краткое описание |
+
+## Инструменты и команды
+
+| Команда / инструмент | Назначение |
+|---------------------|-----------|
+| `command` | Что делает |
+
+## Содержание модуля
+
+| # | Юнит | Тип | Время |
+|---|------|-----|-------|
+| 01 | [Название](01-unit-name/) | Урок | ~X мин |
+| 02 | [Название](02-unit-name/) | Тренажёр | ~X мин |
+| ... | ... | ... | ... |
+
+---
+
+## Итоги модуля
+
+### Что вы изучили
+
+- Краткое резюме темы 1
+- Краткое резюме темы 2
+
+### Чеклист навыков
+
+Отметьте то, что вы уверенно можете сделать:
+
+- [ ] Навык 1
+- [ ] Навык 2
+- [ ] Навык 3
+
+### Ключевые команды
+
+```bash
+command1   # описание
+command2   # описание
+```
+
+---
+← [Предыдущий модуль](../PREV-MODULE/) | [Оглавление](../README.md) | [Следующий модуль →](../NEXT-MODULE/)
+```
+
+## Rules
+
+- Module README is a landing page — NOT a lesson. No teaching content here.
+- "Чему вы научитесь" uses infinitive verbs: «устанавливать», «переключать», «диагностировать».
+- "Чеклист навыков" at the end uses `- [ ]` checkboxes — student marks what they feel confident about.
+- "Ключевые команды" — only commands introduced in THIS module, not cumulative.
+- Navigation links point to previous/next MODULE (not unit).
+- First module (00): `← Предыдущий модуль` links to `../README.md` (course TOC).
+- Last module (11): `Следующий модуль →` is omitted or says «Курс завершён!».

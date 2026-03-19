@@ -1,0 +1,60 @@
+---
+description: Standards for test/quiz units
+globs: course/**/*test*/**
+alwaysApply: false
+---
+
+# Test Unit Standards
+
+Applies to test directories (`*-test-*/`).
+
+## Test Structure
+
+```markdown
+← [Назад](../prev-unit/) | [Оглавление](../../README.md) | [Далее →](../next-unit/)
+
+# Тест: Название
+
+> **Модуль N · Тест M** | Охватывает уроки X–Y
+
+## Вопрос 1
+
+Текст вопроса.
+
+- A) Вариант
+- B) Вариант
+- C) Вариант
+- D) Вариант
+
+<details><summary>Ответ</summary>
+
+**B)** — пояснение почему.
+
+</details>
+
+---
+
+## Вопрос 2
+...
+
+---
+
+## Результаты
+
+| Баллов | Уровень |
+|--------|---------|
+| 9–10 | Отлично — переходите дальше |
+| 7–8 | Хорошо — перечитайте отмеченные темы |
+| < 7 | Рекомендуется пройти уроки заново |
+
+---
+← [Назад](../prev-unit/) | [Оглавление](../../README.md) | [Далее →](../next-unit/)
+```
+
+## Rules
+
+- Answers hidden in `<details>` spoiler blocks.
+- Each answer includes a brief explanation.
+- Tests follow the "snowball" principle — include questions from earlier lessons too.
+- Self-assessment rubric at the end.
+- Files: `README.md` only (no check.sh needed).

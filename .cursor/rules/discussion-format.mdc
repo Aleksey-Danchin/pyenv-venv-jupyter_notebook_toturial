@@ -1,0 +1,53 @@
+---
+description: Structured discussion format for planning and decision-making via Q&A rounds
+globs: .dev/**/questions.md
+alwaysApply: false
+---
+
+# Discussion Format: Structured Q&A Rounds
+
+When conducting planning discussions or decision-making sessions, use this format in a dedicated `questions.md` file.
+
+## File Structure
+
+1. **Header** — title, purpose, participants
+2. **Roles & Authority** — who decides, who proposes, who approves
+3. **Question Blocks** — numbered rounds of questions
+4. **Summary Sections** — after each block, summarize decisions
+
+## Question Block Format
+
+- Blocks numbered sequentially: `## Блок N — Тема`
+- Questions numbered as `N.M`: `### Вопрос 3.2`
+- Each question has:
+  - **Bold question text**
+  - **Options table** with columns: `#`, `Вариант`, `Ответ`
+  - Optional `> **Рекомендация методиста:**` block
+  - `**Ответ:**` line for the user's response
+
+## Example
+
+```markdown
+### Вопрос 2.3
+**Какие типы заданий включить?**
+
+| # | Вариант | Ответ |
+|---|---------|-------|
+| A | Тренажёры | |
+| B | Лабораторные | |
+| C | Тесты | |
+| D | Всё вышеперечисленное | |
+
+> **Рекомендация методиста:** Вариант D обеспечивает разнообразие.
+
+**Ответ:** (user fills in)
+```
+
+## Rules
+
+- Always include `Свой вариант: ___________` option when appropriate.
+- Methodologist recommendations are advisory — the user decides.
+- After receiving answers, summarize decisions before proceeding to next block.
+- Counter-questions from the user get a `## Ответ методиста на вопрос N.M` section.
+- All discussion happens in the same file — append new blocks, never overwrite.
+- Always respond in Russian.

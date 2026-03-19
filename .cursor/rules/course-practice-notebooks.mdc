@@ -1,0 +1,30 @@
+---
+description: Standards for pre-made Jupyter notebook practice files
+globs: course/**/*.ipynb
+alwaysApply: false
+---
+
+# Pre-made Jupyter Notebook Standards
+
+Applies to `.ipynb` files in the course (primarily in Module 8 — Jupyter Practice).
+
+## Purpose
+
+Pre-made notebooks give students a starting point with real content — not a blank canvas.
+They demonstrate the power of Jupyter: Python code, visualizations, markdown, interactivity.
+
+## Structure of a Practice Notebook
+
+1. **Title cell** (Markdown) — name, module reference, objective.
+2. **Context cells** — pre-written code and markdown showing a realistic scenario.
+3. **Task cells** (Markdown) — clearly marked `## Задание N` with instructions.
+4. **Empty code cells** — for the student to fill in.
+
+## Rules
+
+- Notebooks are NOT the primary learning format — they are practice supplements.
+- Keep notebooks focused: one scenario per notebook.
+- Include sample data inline (small lists/dicts) — no external CSV files unless necessary.
+- Use standard libraries for demos: `matplotlib`, `json`, `datetime`, `collections`.
+- Do NOT require packages beyond what's installed in the module's venv setup.
+- Notebook filenames: descriptive, lowercase, with dashes: `practice-matplotlib-basics.ipynb`.

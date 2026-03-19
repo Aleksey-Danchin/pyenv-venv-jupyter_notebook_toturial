@@ -1,0 +1,88 @@
+---
+description: Standards for trainer (step-by-step) units
+globs: course/**/*trainer*/**
+alwaysApply: false
+---
+
+# Trainer Unit Standards
+
+Applies to trainer directories (`*-trainer-*/`).
+
+## Trainer Structure
+
+```markdown
+← [Назад](../prev-unit/) | [Оглавление](../../README.md) | [Далее →](../next-unit/)
+
+# Тренажёр: Название
+
+> **Модуль N · Тренажёр M** | Время: ~X мин
+
+## Цель
+
+(what the student will accomplish by the end)
+
+## Подготовка
+
+(prerequisites: what should be installed/configured before starting)
+
+## Шаг 1 — Описание действия
+
+Инструкция, что нужно сделать.
+
+```bash
+command to execute
+```
+
+**Ожидаемый результат:**
+
+```
+expected output
+```
+
+> **Что произошло:** краткое пояснение, что сделала команда и почему результат именно такой.
+
+---
+
+## Шаг 2 — Описание действия
+...
+
+---
+
+## Итог
+
+(summary of what was accomplished, what the student now has configured)
+
+## Проверка
+
+```bash
+verification command
+```
+
+**Ожидаемый результат:**
+
+```
+expected output
+```
+
+---
+← [Назад](../prev-unit/) | [Оглавление](../../README.md) | [Далее →](../next-unit/)
+```
+
+Files: `README.md`, `check.sh`
+
+## Rules
+
+- Each step has: instruction → command → expected output → explanation.
+- Steps are numbered sequentially: `## Шаг 1`, `## Шаг 2`, etc.
+- Every step includes `**Ожидаемый результат:**` — the student compares their output before proceeding.
+- Brief `> **Что произошло:**` block after each step explains what happened and why.
+- Final `## Проверка` section verifies the overall result.
+- `check.sh` validates the final state (not intermediate steps).
+- Trainers are "do as I do" — the student follows instructions exactly, not problem-solving.
+
+## Check Script (`check.sh`)
+
+- Must be idempotent — safe to run multiple times.
+- Print clear PASS/FAIL messages.
+- Exit code 0 on success, non-zero on failure.
+- Checks the final state after all steps are completed.

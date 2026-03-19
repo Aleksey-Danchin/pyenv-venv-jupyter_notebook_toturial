@@ -1,0 +1,61 @@
+---
+description: Standards for glossary and terminal commands reference files
+globs: course/references/**
+alwaysApply: false
+---
+
+# Reference Files Standards
+
+Applies to files in `course/references/`.
+
+## Glossary (`glossary.md`)
+
+### Format
+
+```markdown
+# Глоссарий
+
+> Определения терминов, встречающихся в курсе. При первом появлении термин определяется в тексте урока и добавляется сюда.
+
+| Термин | Определение | Где впервые встречается |
+|--------|-------------|------------------------|
+| **shim** | Прокси-файл, перехватывающий вызов команды и перенаправляющий его на нужную версию | [Модуль 0, Урок 06](../00-python-environment/06-shims/) |
+```
+
+### Rules
+
+- Table format: `Термин`, `Определение`, `Где впервые встречается`.
+- Terms sorted alphabetically within each letter group, or by order of appearance — choose one and be consistent.
+- Each term links back to the lesson where it was first introduced.
+- Definitions are concise — 1–2 sentences max.
+- When adding a new term: also define it inline in the lesson text (first mention rule).
+
+## Terminal Commands (`terminal-commands.md`)
+
+### Format
+
+```markdown
+# Справочник команд терминала
+
+> Команды терминала, встречающиеся в курсе. Это побочный справочный материал — знания по терминалу не тестируются.
+
+## Навигация и файлы
+
+| Команда | Описание | Пример |
+|---------|----------|--------|
+| `which` | Показывает полный путь к исполняемому файлу | `which python3` |
+
+## Переменные окружения
+
+| Команда | Описание | Пример |
+|---------|----------|--------|
+| `echo $PATH` | Выводит значение переменной PATH | `echo $PATH` |
+```
+
+### Rules
+
+- Table format: `Команда`, `Описание`, `Пример`.
+- Group commands by category (navigation, environment, packages, etc.).
+- Descriptions are 1 sentence max.
+- This is supplementary material — terminal commands are not tested in the course.
+- When a new terminal command appears in a lesson: add a 1–2 sentence explanation inline + add to this reference.

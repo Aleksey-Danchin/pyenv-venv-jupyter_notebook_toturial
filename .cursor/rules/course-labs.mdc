@@ -1,0 +1,74 @@
+---
+description: Standards for lab and diagnostic lab units
+globs: course/**/*lab*/**
+alwaysApply: false
+---
+
+# Lab Unit Standards
+
+Applies to lab (`*-lab-*/`) and diagnostic lab (`*-lab-debug-*/`) directories.
+
+## Regular Lab Structure
+
+```markdown
+← [Назад](../prev-unit/) | [Оглавление](../../README.md) | [Далее →](../next-unit/)
+
+# Лабораторная: Название
+
+> **Модуль N · Лабораторная M** | Время: ~X мин
+
+## Задание
+(clear task description)
+
+## Подсказка 1
+<details><summary>Показать подсказку</summary>
+(hint with increasing detail)
+</details>
+
+## Подсказка 2
+<details><summary>Показать подсказку</summary>
+(more specific hint)
+</details>
+
+## Самопроверка
+(expected output to compare against)
+
+---
+← [Назад](../prev-unit/) | [Оглавление](../../README.md) | [Далее →](../next-unit/)
+```
+
+Files: `README.md`, `solution.md`, `check.sh`
+
+## Diagnostic Lab Structure
+
+Same as above, plus:
+- Opens with a **scenario** ("Коллега настроил окружение, но...")
+- Includes `break.sh` — script that creates the broken state
+- Student runs `break.sh`, then diagnoses and fixes
+
+Files: `README.md`, `break.sh`, `solution.md`
+
+## Solution File (`solution.md`)
+
+```markdown
+# Эталонное решение: Название
+
+## Шаги решения
+1. ...
+2. ...
+
+## Ожидаемый результат
+(terminal output or state description)
+```
+
+## Check Script (`check.sh`)
+
+- Must be idempotent — safe to run multiple times.
+- Print clear PASS/FAIL messages.
+- Exit code 0 on success, non-zero on failure.
+
+## Break Script (`break.sh`)
+
+- Creates a reproducible broken state.
+- Includes a comment header explaining what it breaks (for maintainers, not students).
+- Must be reversible (solution.md shows how to fix).

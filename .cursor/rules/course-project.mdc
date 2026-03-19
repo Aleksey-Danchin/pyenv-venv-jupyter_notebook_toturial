@@ -1,0 +1,95 @@
+---
+description: Core project context — self-study course on pyenv, venv, Jupyter Notebook & JupyterLab
+alwaysApply: true
+---
+
+# Project: Self-Study Course "pyenv + venv + Jupyter Notebook"
+
+## Overview
+
+A self-paced course on managing the Python environment in Linux (Ubuntu-based).
+Tools: **pyenv**, **venv**, **pip**, **Jupyter Notebook**, **JupyterLab**.
+Published on GitHub as markdown files. All course content is in Russian.
+
+## Target Audience
+
+- Knows Python, advanced terminal skills.
+- No prior experience with pyenv, venv, or similar tools.
+- OS: **Linux Ubuntu-based only** (Kubuntu).
+
+## Module Sequence (12 modules)
+
+| # | Module | Dir |
+|---|--------|-----|
+| 0 | Python environment in Linux | `00-python-environment/` |
+| 1 | pyenv: installation & basics | `01-pyenv-basics/` |
+| 2 | pyenv: version management | `02-pyenv-advanced/` |
+| 3 | pip & package management | `03-pip/` |
+| 4 | venv: creation & usage | `04-venv-basics/` |
+| 5 | venv: advanced usage | `05-venv-advanced/` |
+| 6 | Jupyter Notebook | `06-jupyter-notebook/` |
+| 7 | Jupyter: kernels & integration | `07-jupyter-kernels/` |
+| 8 | Jupyter: hands-on practice | `08-jupyter-practice/` |
+| 9 | JupyterLab | `09-jupyterlab/` |
+| 10 | Project practice | `10-project-practice/` |
+| 11 | Integration: end-to-end scenarios | `11-integration/` |
+
+## File Structure
+
+- Course root: `course/`
+- Module dir: `course/NN-name/`
+- Unit dir: `course/NN-module/NN-unit-name/`
+- Unit main file: `README.md`
+- Reference solutions: `solution.md`
+- Check scripts: `check.sh`
+- Break scripts (diagnostic labs): `break.sh`
+- Pre-made notebooks (practice module): `*.ipynb`
+- Media: in unit dir next to README.md
+- Cheatsheets: `course/cheatsheets/`
+- Glossary: `course/references/glossary.md`
+- Terminal commands: `course/references/terminal-commands.md`
+
+## Unit Type Naming Convention
+
+Unit directory names encode the type:
+- **Lessons**: no prefix — `01-system-python/`, `03-basic-usage/`
+- **Labs**: `*-lab-*/` — `05-lab-install-and-switch/`
+- **Diagnostic labs**: `*-lab-debug-*/` — `13-lab-debug-missing-python/`
+- **Trainers**: `*-trainer-*/` — `02-trainer-installation/`
+- **Tests**: `*-test-*/` — `05-test-versions/`
+
+## Terminology Policy
+
+The course uses professional terminology without fear:
+1. **First mention** — term is defined inline + added to `course/references/glossary.md`.
+2. **Subsequent uses** — term is used freely, with a footnote linking to the glossary.
+3. Never re-explain a previously defined term in the main text.
+
+## Practice Placement (Snowball Principle)
+
+Tests and labs grouped after every 2–3 lessons. Each practice unit covers:
+- Newly learned topics.
+- Previously learned topics from the same module.
+One practice unit per lesson is NOT the pattern.
+
+## Verification System
+
+Self-check (expected output) + `check.sh` (bash) + `solution.md` (mandatory for every lab).
+
+## Navigation
+
+- `course/README.md` — table of contents.
+- Every unit `README.md` has `← Назад` and `Далее →` links.
+
+## Roles
+
+- **Methodologist** (AI): structure, completeness, sequencing, practice coverage, review.
+- **Author / Client** (Aleksey): goals, approval, acceptance.
+
+## AI Agent Constraints
+
+- **DO NOT interact with git.**
+- New terminal commands → short reference (1–2 sentences) + add to `course/references/terminal-commands.md`.
+- New terms → define inline + add to `course/references/glossary.md`.
+- Each file is a self-contained learning unit.
+- **Always respond in Russian.**

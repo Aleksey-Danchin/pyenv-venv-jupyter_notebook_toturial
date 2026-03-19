@@ -1,0 +1,31 @@
+---
+description: Standards for cheatsheet reference files
+globs: course/cheatsheets/**
+alwaysApply: false
+---
+
+# Cheatsheet Standards
+
+Applies to files in `course/cheatsheets/`.
+
+## Format
+
+```markdown
+# Справочник: Название инструмента
+
+> Краткий справочник команд. Подробности — в соответствующих уроках.
+
+## Категория
+
+| Команда | Описание | Пример |
+|---------|----------|--------|
+| `command` | Что делает | `command --flag value` |
+```
+
+## Rules
+
+- One cheatsheet per tool: pyenv, venv, pip, jupyter.
+- Table format: `Команда`, `Описание`, `Пример`.
+- Group commands by category (installation, daily usage, cleanup, etc.).
+- Keep descriptions to one line.
+- Link back to the relevant lesson where the command is taught.

@@ -1,0 +1,40 @@
+---
+description: Standards for course lesson units
+globs: course/**/README.md
+alwaysApply: false
+---
+
+# Lesson Unit Standards
+
+Applies to all `README.md` files inside course unit directories.
+
+## Structure of a Lesson
+
+```markdown
+← [Назад](../prev-unit/) | [Оглавление](../../README.md) | [Далее →](../next-unit/)
+
+# Заголовок урока
+
+> **Модуль N · Урок M** | Время: ~X мин
+
+## Содержание
+(main content with examples, terminal output, explanations)
+
+## Сравнение с альтернативами
+(optional inline comparison: "pyenv vs conda" etc.)
+
+## Частые ошибки
+(common mistakes and how to avoid them, at the end of every lesson)
+
+---
+← [Назад](../prev-unit/) | [Оглавление](../../README.md) | [Далее →](../next-unit/)
+```
+
+## Content Rules
+
+- Terminal output in fenced `bash` blocks, NOT screenshots.
+- Screenshots/GIFs only for GUI actions (Jupyter in browser).
+- New terminal commands: 1–2 sentence explanation inline.
+- New terms: define on first use, link to glossary.
+- Comparisons with alternatives: brief inline inserts, not separate sections unless warranted.
+- "Частые ошибки" section is mandatory at the end of every lesson.
