@@ -8,7 +8,7 @@
 |---|--------|--------|--------|
 | 00 | Python-среда в Linux | [Открыть](00-python-environment/README.md) | В процессе |
 | 01 | pyenv: установка и основы | [Открыть](01-pyenv-basics/README.md) | В процессе |
-| 02 | pyenv: управление версиями | `02-pyenv-advanced/` | Запланирован |
+| 02 | pyenv: управление версиями | [Открыть](02-pyenv-advanced/README.md) | В процессе |
 | 03 | pip и управление пакетами | `03-pip/` | Запланирован |
 | 04 | venv: создание и работа | `04-venv-basics/` | Запланирован |
 | 05 | venv: продвинутое использование | `05-venv-advanced/` | Запланирован |
@@ -43,6 +43,21 @@
 | 05 | [Тест: pyenv — установка и основы](01-pyenv-basics/05-test-pyenv-basics/README.md) | Тест |
 | 06 | [Лабораторная: установка и просмотр версий](01-pyenv-basics/06-lab-pyenv-install-versions/README.md) | Лабораторная |
 | 07 | [Диагностика: pyenv install не компилирует](01-pyenv-basics/07-lab-debug-build-deps/README.md) | Диагностика |
+
+## Модуль 2: содержание юнитов
+
+| # | Юнит | Тип |
+|---|------|-----|
+| 01 | [Переключение глобальной версии](02-pyenv-advanced/01-pyenv-global/README.md) | Урок |
+| 02 | [Локальная версия для проекта](02-pyenv-advanced/02-pyenv-local/README.md) | Урок |
+| 03 | [Версия для текущей сессии](02-pyenv-advanced/03-pyenv-shell/README.md) | Урок |
+| 04 | [Приоритет версий](02-pyenv-advanced/04-version-priority/README.md) | Урок |
+| 05 | [Тест: переключение версий](02-pyenv-advanced/05-test-version-switching/README.md) | Тест |
+| 06 | [Лабораторная: переключение версий](02-pyenv-advanced/06-lab-version-switching/README.md) | Лабораторная |
+| 07 | [Удаление версии Python](02-pyenv-advanced/07-uninstall-python/README.md) | Урок |
+| 08 | [Обновление и деинсталляция pyenv](02-pyenv-advanced/08-update-remove-pyenv/README.md) | Урок |
+| 09 | [Диагностика: python не найден](02-pyenv-advanced/09-lab-debug-python-not-found/README.md) | Диагностика |
+| 10 | [Итоговая лабораторная по pyenv](02-pyenv-advanced/10-lab-pyenv-final/README.md) | Лабораторная |
 
 ## Справочные материалы
 

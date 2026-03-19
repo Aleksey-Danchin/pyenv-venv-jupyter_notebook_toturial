@@ -9,6 +9,8 @@
 | `curl https://pyenv.run \| bash` | Установить pyenv через официальный установщик | — |
 | `pyenv --version` | Показать версию pyenv | `pyenv --version` |
 | `cd ~/.pyenv && git pull` | Обновить pyenv до последней версии | — |
+| `pyenv update` | Обновить pyenv и все плагины (требуется плагин pyenv-update) | `pyenv update` |
+| `rm -rf ~/.pyenv` | Полностью удалить pyenv и все установленные через него версии Python | — |
 
 ## Установка версий Python
 
@@ -33,6 +35,8 @@
 | `pyenv local <version>` | Установить версию для текущей директории (создаёт `.python-version`) | `pyenv local 3.11.7` |
 | `pyenv shell <version>` | Установить версию для текущей сессии shell | `pyenv shell 3.13.0` |
 | `pyenv shell --unset` | Сбросить версию сессии | `pyenv shell --unset` |
+| `pyenv local --unset` | Удалить файл `.python-version` из текущей директории | `pyenv local --unset` |
+| `pyenv global system` | Вернуть системный Python как глобальную версию | `pyenv global system` |
 
 ## Служебные
 

@@ -59,5 +59,11 @@
 | `pyenv install --list`      | Показывает все доступные для установки версии Python.                     | `pyenv install --list`          |
 | `pyenv versions`            | Показывает все установленные версии Python (активная отмечена `*`).       | `pyenv versions`                |
 | `pyenv version`             | Показывает текущую активную версию Python и источник настройки.           | `pyenv version`                 |
+| `pyenv global <version>`    | Устанавливает глобальную версию Python (для всех терминалов).            | `pyenv global 3.12.0`          |
+| `pyenv local <version>`     | Привязывает версию Python к текущей директории (создаёт `.python-version`). | `pyenv local 3.11.7`        |
+| `pyenv local --unset`       | Удаляет файл `.python-version` из текущей директории.                    | `pyenv local --unset`           |
+| `pyenv shell <version>`     | Устанавливает версию Python для текущей сессии терминала.                | `pyenv shell 3.13.0`           |
+| `pyenv shell --unset`       | Сбрасывает сессионную версию Python.                                     | `pyenv shell --unset`           |
+| `pyenv uninstall <version>` | Удаляет установленную версию Python.                                     | `pyenv uninstall 3.11.7`       |
 
 
